@@ -1,0 +1,6 @@
+body {background-color:rgb(247, 247, 236); font-family: Arial, Helvetica, sans-serif;} 
+table, th, td {border: 2px solid rgb(32, 34, 32)}
+h1, h2 {color:rgb(27, 70, 27)}
+.evenrow {background-color:rgb(220, 240, 226);}
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em}
