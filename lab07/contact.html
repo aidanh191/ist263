@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>"Aidan Harrington - Contact"</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Aidan Harrington - Contact</h1>
+        <h3>Syracuse Univerity School of Information Studies<br>
+            343 Hinds Hall<br>Syracuse, NY 13244</h3>
+        <p><strong>Email me: <a href="mailto:aiharrin@syr.edu">aiharrin@syr.edu</a></strong></p>
+        <img src="../images/LinkedIn-Logos/newli.png" alt="LinkedIn Logo" >
+        <a href="https://www.linkedin.com/in/aidanharringtonsu/" target="_blank">My LinkedIn Profile</a><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.152537749965!2d-76.13555668452203!3d43.03822197914713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fca155555%3A0xc1c69e4f641652c1!2sSyracuse%20University%20School%20of%20Information%20Studies%20(iSchool)!5e0!3m2!1sen!2sus!4v1644506136287!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+
+        <h3>Submit Questions/Inquiries</h3>
+
+        <form action="https://formspree.io/f/mvolawyk" method="post">
+            <!--label tells user what to enter
+        for links the label to the form element
+        value in for must match in input id-->
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+        <label for="questions">Description of Inquiry</label><br>
+        <textarea name="questions" id="questions"></textarea><br>
+        <!--radio buttons linked by the same name value, but id value must be unique-->
+
+        <label for="nature1">Professional</label>
+        <input type="radio" name="Professional" id="nature1"><br>
+        <label for="nature2">Casual</label>
+        <input type="radio" name="Professional" id="nature2"><br>
+
+        <p>How can I get back to you?</p>
+        <label for="method1">Email</label>
+        <input type="checkbox" id="method1" name="method1">
+        <label for="method2">Phone</label>
+        <input type="checkbox" id="method2" name="method2"><br><br>
+
+        <label for="info">Relevant Contact Info (Email/Phone #)</label><br>
+        <input type="text" id="info" name="info">
+        
+        <br><br>
+        <input type="submit" value="Submit Question">
+        </form><br>
+        <p><strong>Thanks!</strong></p>
+
+    </body>
+</html>
