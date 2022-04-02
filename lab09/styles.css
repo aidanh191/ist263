@@ -1,0 +1,28 @@
+body, .blurb {background-color: #5a5653; font-family: Arial, Helvetica, sans-serif;}
+p, span {color: #e4d2c4;}
+a {color: #C3DBD9;}
+h1 {color: #76f0b7;}
+h2, h3 {color: #bbd8cc;}
+ul, label {color:#bbd8cc}
+table, th, td {border: 2px solid #3f3c3b; color: #2e312e; background-color: #f1eae7;}
+nav {background-color: #6e6864; padding: 10px; margin-bottom: 30px;}
+nav a {color:#9febf5; font-size: 1.5em;}
+nav a:hover {color:#ce9cc1}
+.headshot {float: left; margin-right: 15px;}
+.quote {float: right;}
+.directory, .mapform {display: flex; background-color: #6e6864; border-radius: 1em; margin: 10px; padding:10px}
+.map {flex: 1; margin-left: 25px; }
+.form {flex: 2;}
+.links {flex: 2;}
+.clear {clear:both}
+.address {margin-right: 25px; flex:1; }
+
+/**SKILLS**/
+.heading { display: flex; justify-content: center;}
+.icon {width: 45px;}
+.mainskills {display: flex; flex: 75%; justify-content: space-around; align-items: center; text-align: center;}
+.fullbox {display: flex;}
+.other {background-color:#6e6864; border-radius: 1em; padding: 15px; flex: 25%; }
+.blurb {font-size: 1.175em; margin-bottom: 25px; margin-right: 25%;}
+.mainskills span {font-family: Arial, Helvetica, sans-serif; font-size: 1.1em; background-color: #6e6864; border-radius: 1em; padding-left: 10px; padding-right: 10px; margin-top: 20px;}
+.bigbox {display: flex; flex-direction: column; margin-left: 100px; margin-right: 100px;}
