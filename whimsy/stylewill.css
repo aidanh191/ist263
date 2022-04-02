@@ -7,7 +7,7 @@ nav { font: Georgia,; font-size: 1.3em; background: black; padding: 20px; color:
 a {color: red}
 input [type=radio] {background-color: crimson;}
 .biggest {display: flex;}
-label, .form p {color: black}
+label, .form span {color: black}
 .macdaddy {display: flex; flex:1; border-radius: 1em; padding: 20px;border: 7px solid black ; margin:10px; background-color: rgb(126, 76, 86); align-items: center;}
 .macdaddy img {height: 350px; margin-right: 15px; border-radius: 1em; border: 2px solid black;}
 .macdaddy span {font-size: 2.5em;}
