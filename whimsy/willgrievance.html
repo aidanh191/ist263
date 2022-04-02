@@ -17,30 +17,30 @@
         <div class="biggest">
             <div class="form">
                 <form action="https://formspree.io/f/mdoblylb" method="post">
-                <label for="fullname"><strong>Discord username including tag</strong><br> 
+                <label for="username"><strong>Discord username including tag</strong><br> 
                     (For an anonymous submission, enter N/A)</label><br>
                 <input type="text" id="fullname" name="fullname"><br><br>
         
                 <span><strong>What is the nature of your submission?</strong><br></span>
                 <label for="complaint">Complaint</label>
-                <input type="radio" name="nature" id="complaint">
+                <input type="radio" name="nature" id="complaint" value="complaint">
                 <label for="suggestion">Suggestion</label>
-                <input type="radio" name="nature" id="suggestion"><br>
+                <input type="radio" name="nature" id="suggestion" value="suggestion"><br>
                 <label for="reportuser">Reporting User</label>
-                <input type="radio" name="nature" id="reportuser">
+                <input type="radio" name="nature" id="reportuser" value="reportuser">
                 <label for="other">Other</label>
-                <input type="radio" name="nature" id="other"><br><br>
+                <input type="radio" name="nature" id="other" value="other"><br><br>
 
                 <label for="details"><strong>Please enter the details of your submission</strong></label><br>
                 <textarea name="details" id="details"></textarea><br><br>
         
                 <span><strong>Would you like a DM to follow-up?</strong></span><br>
                 <label for="yes">Yes, please DM me</label>
-                <input type="radio" id="yes" name="contact"><br>
+                <input type="radio" id="yes" name="contact" value="yes"><br>
                 <label for="no">No, a follow-up is not needed/This is anonymous</label>
-                <input type="radio" id="no" name="contact"><br>
+                <input type="radio" id="no" name="contact" value="no"><br>
                 <label for="maybe">I'm indifferent</label>
-                <input type="radio" id="maybe" name="contact"><br>
+                <input type="radio" id="maybe" name="contact" value="indifferent"><br>
         
                 <br><br>
                 <input type="submit" value="air grievances">
