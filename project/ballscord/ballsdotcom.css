@@ -1,13 +1,13 @@
 nav {display: flex; background-color: peru; color: black; margin-top: 10px; font-size: 2em; justify-content: space-around; margin-bottom: 10px; border-radius: 1em; padding: 5px;}
 header img {border-radius: 1em;}
 a:visited {color: black}
-body {background-color: white; padding: 20px;}
+body {background-color: white; padding: 10px;}
 .sections {display: flex;}
 .sections p, li {background-color: RGBA(255, 255, 255, .5); border-radius: 1em; padding: 4px;}
 .sections h2 {background: rgb(166, 201, 207); border-radius: 1em; padding: 6px;}
-.intro, .calendar {flex: 1; margin: 30px; background-image: url(../images/grass.jpg); background-color: #cccccc; background-repeat: no-repeat; background-size: 170%; padding: 30px; color: black; border-radius: 1em; border: 3px solid white; font-size: 1.3em;}
+.intro, .calendar {flex: 1; background-image: url(../images/grass.jpg); background-color: #cccccc; background-repeat: no-repeat; background-size: 170%; padding: 30px; color: black; border-radius: 1em; border: 3px solid white; font-size: 1.3em;}
 .cat {flex: .2; margin: 30px; object-fit: cover; }
 .footer {background-color: peru; border-radius: 1em; padding: 5px;}
 hr {color: black;}
 @media only screen and (max-width: 600px){.sections{flex-direction: column;}
- nav a {width: 100%; display: block; margin-top: 10px; margin-bottom: 10px;}}
+ nav a {width: 100%; display: block; margin-top: 10px; margin-bottom: 10px;} nav {justify-content: none};}
