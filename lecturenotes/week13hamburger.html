@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://laferger.github.io/ist263/Lecture-Code_Unit12.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>JavaScript Part 2</title>
+        <!--
+            1. Hamburger does not display when screen is large
+            2. Display hamburger when screen is small
+            3. Nav across screen at large
+            4. Nav stacks when small
+            5. Nav hides when screen is small
+            6. when they click on the hamburger nav shows
+        -->
+        <style>
+            #hamburger {
+              width: 40px;
+              display: none;
+            }
+            #navlinks a {
+                background-color: coral;
+                padding: 10px;
+                margin: 5px;
+
+            }
+
+            @media only screen and (max-width: 600px) {
+                #hamburger {display: block;}
+                #navlinks a {display: block;}
+                #navlinks {display: none;}
+            }
+        </style>
+        <script>
+            function toggleNav () {
+                /**check if nav is on*/
+                if (document.getElementById("navlinks").getPropertyValue("display") == 'block'){
+                    document.getElementById("navlinks").style.display = "none"
+                }
+                document.getElementById("navlinks").style.display = "block";
+            }
+        </script>
+
+    </head>
+    <body>
+        
+        <nav>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" id="hamburger">
+            <div id="navlinks">
+                <a href="https://laferger.github.io/ist263/index.html">Home</a> 
+                <a href="https://laferger.github.io/ist263/skills.html">Skills</a> 
+                <a href="https://laferger.github.io/ist263/contact.html">Contact</a>
+            </div>
+            
+        </nav>
+
+        
+       
+    
+</body></html>
