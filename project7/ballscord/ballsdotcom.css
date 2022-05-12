@@ -32,15 +32,9 @@ img {max-width: 100%;}
    display: block;
    text-align: left;
  }
-
- nav {justify-content: none};
 .intro, .calendar {background-repeat: repeat-y; justify-content: space-between; padding: 10px};
 .sections h2, h3 {padding: 10px}
 }
-
-/**.cat {flex: .2; margin: 30px; object-fit: cover; }**/
-
-/**MERCH PAGE**/
 .merchgrid {
     display: flex; 
   }
@@ -62,6 +56,6 @@ img {max-width: 100%;}
 
 /**MUSINGS**/
 .cities img, .clarence img {float: left; max-width: 33%; margin-right: 10px;}
-.cities p, .clarence p {margin: 20px;}
+.cities p, .clarence p {margin: 20px; font-size: 1.7em; border: 3px solid black; background-color: RGBA(255, 255, 255, .5)}
 .clear {clear: both;}
-.musingbody {padding: 20px;}
+.musingbody {padding: 20px;  background-image: url(../images/grass.jpg); background-color: #cccccc; background-repeat: repeat; background-size: 120%; color: black; border-radius: 1em; }
