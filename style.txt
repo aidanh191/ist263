@@ -1,7 +1,0 @@
-a.	Body background color 
-b.	Text color
-c.	Link color
-d.	Heading color
-e.	Site Navigation Background 
-f.	Site Navigation Highlight Color
-g.	Site Navigation Link Color
