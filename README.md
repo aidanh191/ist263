@@ -1,2 +1,2 @@
 # ist263
-web design god
+Intro to Front End Web Design
